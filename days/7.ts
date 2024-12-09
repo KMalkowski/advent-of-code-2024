@@ -18,7 +18,6 @@ export async function day7(input: BunFile) {
     const slots = parts[i].right.length - 1;
     console.log("slots", slots);
 
-    // Generate all possible operator combinations
     const operators = [0, 1, 2];
 
     generateCombinations([], 0, slots, combinations, operators);
