@@ -7,6 +7,8 @@ import { day5 } from "./days/5";
 import { day6 } from "./days/6";
 import { day7 } from "./days/7";
 import { day8 } from "./days/8";
+import { day9 } from "./days/9";
+
 // day1(Bun.file(import.meta.dir + "/input/1.txt"));
 // day2(Bun.file(import.meta.dir + "/input/2.txt"));
 // day3(Bun.file(import.meta.dir + "/input/3.txt"));
@@ -14,4 +16,5 @@ import { day8 } from "./days/8";
 // day5(Bun.file(import.meta.dir + "/input/5.txt"));
 // day6(Bun.file(import.meta.dir + "/input/6.txt"));
 // day7(Bun.file(import.meta.dir + "/input/7.txt"));
-day8(Bun.file(import.meta.dir + "/input/8.txt"));
+// day8(Bun.file(import.meta.dir + "/input/8.txt"));
+day9(Bun.file(import.meta.dir + "/input/9.txt"));
